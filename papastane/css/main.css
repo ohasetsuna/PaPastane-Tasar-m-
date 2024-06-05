@@ -1,0 +1,53 @@
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #AD88C6;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #e1afd1;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: azure;
+}
+
+.carousel{
+    width: 794.39px;
+}
+#main-stage{
+    margin-top: 280px;
+    display:grid;
+    justify-content: center;
+    /* width: 790px; */
+}
+#cupcakes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#cupcakes img{
+    width: 190px;
+    border: 10px solid white;
+    transition: all 0.3s ease;
+}
+#cupcakes img:hover{
+    transform: scale(0.95);
+    border: 5px solid #AD88C6;
+}
+.divider{
+    height: 50px;
+    margin: 20px 0;
+}
+.footer p a{
+    text-decoration: none;
+    color: #AD88C6;
+}
+.footer p a:hover{
+    color: rgb(173, 120, 21);
+}
+#back{
+    z-index: -9999;
+    position: absolute;
+    margin-top: 23.42px;
+    margin-left: 47.195px;
+}

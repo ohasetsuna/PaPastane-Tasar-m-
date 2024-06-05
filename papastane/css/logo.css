@@ -1,0 +1,19 @@
+#logo{
+    display: inline-block;
+    text-align: center;
+    margin: 20 0;
+}
+.logolink{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logoimg{
+    width: 310px;
+    border-radius: 50%;
+    transition: transform 0.4s ease;
+}
+.logolink:hover .logoimg {
+    transform: translate(-20%, 0%) rotate(-60deg); /* İlk logonun animasyonlu kayması */
+}

@@ -1,0 +1,75 @@
+.noticer{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    
+}
+@font-face {
+    font-family: 'Cookie Monster';
+    src: url(../Cookiemonster-gv11.ttf)
+    format('truetype');
+}
+.inside{
+    font-family: 'Cookie Monster', cursive;
+    width: 220px;
+    height: 220px;
+    background-color: #FFE6E6;
+    border: 5px double #AD88C6;
+    margin: 15px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.inside:hover{
+    transform: scale(1.05);
+    border: 5px solid #AD88C6;
+}
+.pasta-desc{
+    font-size: 23px;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 28px;
+}
+.cake-desc{
+    font-size: 23px;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 38px;
+}
+#inside-pasta, #inside-cupcake, #inside-cake{
+    width: 90px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+.socials{
+    position: absolute;
+    top: 160px;
+    left: 70px;
+}
+.social{
+    width: 30px;
+}
+.cupcake-desc{
+    font-size: 28px;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.cupcake-link{
+    position: absolute;
+    top: 160px;
+    left: 65px;
+    color: #212529;
+}
+.cupcake-link:hover, .cake-link:hover{
+    color: #AD88C6;
+}
+.cake-link{
+    position: absolute;
+    top: 160px;
+    left: 57px;
+    color: #212529;
+}

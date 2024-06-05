@@ -1,0 +1,29 @@
+#all-nav-links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding: 0%;
+    align-items: center;
+    
+}
+.link{
+    text-decoration: none;
+    color: rgb(73, 68, 68);
+    border: 5px solid #AD88C6;
+    background-color: #FFE6E6;
+    padding: 5px;
+    width: 150px;
+    margin-left: 10px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: border-width 0.2s ease, padding 0.3s ease;
+}
+.link:hover{
+    background-color: #AD88C6;
+    color: white;
+    text-decoration: none;
+    border-color: #FFE6E6;
+    border-width: 3px;
+    padding: 7px; 
+}

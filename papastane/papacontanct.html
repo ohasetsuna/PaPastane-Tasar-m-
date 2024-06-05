@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="papacontact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container" style="display: grid;">
+        <div class="form-container" style="display: grid;"  >
+          <div style="display: flex; justify-content: space-around;">
+            <div class="image-container">
+                <img src="resimler/kapkek-4.jpg" alt="Cake Image">
+            </div>
+            <div class="input-container">
+                <div class="form-content">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="text" id="surname" name="surname" placeholder="Surname" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone">
+                    </div>
+                </div>
+            </div>
+          </div>
+            <div class="message-container">
+              <div class="form-group">
+                  <textarea id="message" name="message" rows="7" placeholder="Message" required></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+        </div>
+        
+      </div>
+       
+    </div>
+</body>
+</html>

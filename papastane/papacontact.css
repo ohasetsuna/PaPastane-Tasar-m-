@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3d3e9;
+}
+
+.form-container {
+  background-color: #f3d3e9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  max-width: 800px;
+  width: 95%;
+  display: flex;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.image-container img {
+  
+  width: 200px;
+  height: 215px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 94%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+textarea {
+  width: 96%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #846897;
+}
+
+button {
+  background-color: #846897;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6d556b;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3d3e9;
+}
+
+.form-container {
+    background-color: #f3d3e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    height: 215px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container,
+.message-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #846897;
+}
+
+button {
+    background-color: #846897;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6d556b;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+      background-color: #E1AFD1;
+  }
+
+  .container {
+      max-width: 600px;
+      margin: 0 auto; /* Yatayda merkezlemek için margin: 0 auto; kullanın */
+      padding: 20px;
+      box-sizing: border-box;
+  }
+
+  .form-container {
+      display: grid;
+      gap: 20px;
+      width: calc(100% - 30px); /* Kenar boşluğunu ayarlamak için container'ın genişliğinden 30 piksel çıkarın */
+      padding-right: 30px;
+  } 
+
+  .image-container img {
+      display: none;
+  }
+
+  .input-container {
+      display: grid;
+  }
+
+  .form-content {
+      display: grid;
+      gap: 10px;
+  }
+
+  .form-group {
+      display: grid;
+  }
+
+  input,
+  textarea {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+      width: 100%;
+  }
+
+  button {
+      padding: 10px;
+      background-color: #846897;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+  }
+}
